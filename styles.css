@@ -104,6 +104,12 @@ button:hover {
     font-size: 70px;
 }
 
+.reasons-heading1 {
+    margin-bottom: 30px;
+    font-size: 70px;
+}
+
+
 .reasons-wrapper {
     display: flex;
     justify-content: space-around; /* Adjust as needed */
@@ -185,7 +191,23 @@ button:hover {
 }
 
 @media (max-width: 480px) {
-    .reasons-heading {
-        margin-top: 30px;
+    .reasons-heading, .reasons-heading1  {
+        margin-top: 60px;
     }
+
+    .photo-container {
+        display: grid;
+        grid-template-columns: repeat(auto-fill, minmax(80px, 1fr));
+}
+ .reasons-heading1{
+    font-size: 50px;
+ }
+
+ .reasons-list li {
+    font-size: 18px;
+    font-weight: 500;
+    line-height: 1.0;
+    margin-bottom: 10px;
+}
+
 }
