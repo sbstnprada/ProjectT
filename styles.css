@@ -104,6 +104,11 @@ button:hover {
     font-size: 70px;
 }
 
+.reasons-heading1 {
+    margin-bottom: 30px;
+    font-size: 50px;
+}
+
 .reasons-wrapper {
     display: flex;
     justify-content: space-around; /* Adjust as needed */
@@ -124,7 +129,7 @@ button:hover {
 }
 
 .reasons-list li {
-    font-size: 24px;
+    font-size: 20px;
     font-weight: 500;
     line-height: 1.0;
     margin-bottom: 10px;
