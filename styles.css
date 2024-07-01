@@ -281,12 +281,12 @@ button:hover {
     }
 
     .reasons-list li {
-        font-size: 16px;
+        font-size: 14px;
         margin-bottom: 2px;
     }
 
     .reasons-list1 li {
-        font-size: 16px;
+        font-size: 14px;
         margin-bottom: 2px;
     }
 
@@ -297,6 +297,14 @@ button:hover {
     #photos-heading {
         font-size: 30px;
         margin-bottom: 15px;
+    }
+
+    .photo-container {
+        display: grid;
+        grid-template-columns: repeat(auto-fill, minmax(100px, 1fr)); /* Adjust column width as needed */
+        gap: 10px; /* Adjust gap between photos */
+        max-width: 428px; /* Limit maximum width of the grid */
+        margin: auto; /* Center align the grid */
     }
 
     .photo-container {
