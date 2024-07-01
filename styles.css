@@ -194,28 +194,17 @@ button:hover {
         justify-content: center;
     }
 
-    #i, #you {
-        font-size: 150px;
-    }
-
-    #heart {
-        width: 150px;
-    }
-
-    .peony {
-        width: 200px;
-    }
-
     .reasons-heading {
-        font-size: 50px;
+        margin-bottom: 50px;
+        font-size: 40px;
     }
 
     .reasons-list li {
-        font-size: 20px;
+        font-size: 18px;
     }
 
     #photos-heading {
-        font-size: 50px;
+        font-size: 30px;
     }
 
     .photo-container {
@@ -289,7 +278,7 @@ button:hover {
     }
 
     .photo-container {
-        grid-template-columns: repeat(auto-fill, minmax(60px, 1fr));
+        grid-template-columns: repeat(auto-fill, minmax(50px, 1fr));
         gap: 5px;
     }
 }
