@@ -209,7 +209,7 @@ button:hover {
     box-shadow: 0 0 20px rgba(0, 0, 0, 0.5);
 }
 /* Laptops and desktops (including MacBook Air 13-inch) */
-@media (min-width: 1280px) and (max-width: 1440px) {
+@media (min-width: 1440px) and (max-width: 1440px) and (min-height: 900px) and (max-height: 900px) {
 
     .reasons-heading1 {
         margin-bottom: 30px;
