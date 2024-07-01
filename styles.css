@@ -272,21 +272,21 @@ button:hover {
     }
 
     .reasons-list-left, .reasons-list-right {
-        width: 60%;
+        width: 90%;
         margin: 0 auto;
     }
     .reasons-list-left1, .reasons-list-right1 {
-        width: 60%;
+        width: 90%;
         margin: 0 auto;
     }
 
     .reasons-list li {
-        font-size: 16px;
+        font-size: 10px;
         margin-bottom: 5px;
     }
 
     .reasons-list1 li {
-        font-size: 16px;
+        font-size: 10px;
         margin-bottom: 5px;
     }
 
