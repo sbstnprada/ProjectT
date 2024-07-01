@@ -131,13 +131,12 @@ button:hover {
 }
 
 .photo-grid {
-    margin-top: 15vh; /* Adjust spacing from top */
+    margin-top: 10vh; /* Adjust spacing from top */
 }
 
 #photos-heading{
     font-size: 70px;
     margin-bottom: 30px;
-    margin-top: 30px;
 }
 
 .photo-container {
@@ -182,34 +181,6 @@ button:hover {
     max-height: 90%;
     border-radius: 20px;
     box-shadow: 0 0 20px rgba(0, 0, 0, 0.5);
-}
-
-/* Responsive styles */
-
-/* MacBook Air 13-inch 2018 (1440x900) */
-@media screen and (max-width: 1440px) {
-    .container {
-        flex-direction: row;
-        align-items: center;
-        justify-content: center;
-    }
-
-    .reasons-heading {
-        margin-bottom: 50px;
-        font-size: 40px;
-    }
-
-    .reasons-list li {
-        font-size: 18px;
-    }
-
-    #photos-heading {
-        font-size: 30px;
-    }
-
-    .photo-container {
-        grid-template-columns: repeat(auto-fill, minmax(80px, 1fr));
-    }
 }
 
 /* iPhone Pro Max (428x926) */
