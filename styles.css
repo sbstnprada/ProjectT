@@ -253,11 +253,6 @@ button:hover {
         margin-bottom: 15px;
     }
 
-    .reasons-heading1 {
-        font-size: 30px;
-        margin-bottom: 15px;
-    }
-
     .reasons-wrapper {
         flex-direction: column;
     }
@@ -266,35 +261,6 @@ button:hover {
         width: 90%;
         margin: 0 auto;
     }
-
-    .reasons-list1 {
-        list-style-type: none;
-        padding: 0;
-        text-align: left; /* Align reasons to the left */
-    }
-    
-    .reasons-list-left1 {
-        width: 45%; /* Adjust width for left column */
-    }
-    
-    .reasons-list-right1 {
-        width: 45%; /* Adjust width for right column */
-    }
-
-    .reasons-list {
-        list-style-type: none;
-        padding: 0;
-        text-align: left; /* Align reasons to the left */
-    }
-    
-    .reasons-list-left {
-        width: 45%; /* Adjust width for left column */
-    }
-    
-    .reasons-list-right {
-        width: 45%; /* Adjust width for right column */
-    }
-    
 
     .reasons-list li {
         font-size: 16px;
