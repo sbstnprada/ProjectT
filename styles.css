@@ -114,6 +114,11 @@ button:hover {
     justify-content: space-around; /* Adjust as needed */
 }
 
+.reasons-wrapper1 {
+    display: flex;
+    justify-content: space-around; /* Adjust as needed */
+}   
+
 .reasons-list {
     list-style-type: none;
     padding: 0;
@@ -253,11 +258,24 @@ button:hover {
         margin-bottom: 15px;
     }
 
+    .reasons-heading1 {
+        font-size: 30px;
+        margin-bottom: 15px;
+    }
+
     .reasons-wrapper {
         flex-direction: column;
     }
 
+    .reasons-wrapper1 {
+        flex-direction: column;
+    }
+
     .reasons-list-left, .reasons-list-right {
+        width: 90%;
+        margin: 0 auto;
+    }
+    .reasons-list-left1, .reasons-list-right1 {
         width: 90%;
         margin: 0 auto;
     }
