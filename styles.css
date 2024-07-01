@@ -214,7 +214,20 @@ button:hover {
     box-shadow: 0 0 20px rgba(0, 0, 0, 0.5);
 }
 
+/* MacBook Air 13-Inch 2018 */
+@media screen and (max-width: 1400px){
+    .reasons-heading1 {
+        margin-bottom: 30px;
+        font-size: 56px;
+    }
 
+    .reasons-list1 li {
+        font-size: 21px;
+        font-weight: 500;
+        line-height: 1.0;
+        margin-bottom: 10px;
+    }
+}
 /* iPhone Pro Max (428x926) */
 @media screen and (max-width: 430px) {
     body {
