@@ -208,9 +208,23 @@ button:hover {
     border-radius: 20px;
     box-shadow: 0 0 20px rgba(0, 0, 0, 0.5);
 }
+/* Laptops and desktops (including MacBook Air 13-inch) */
+@media screen and (device-width: 1440px) and (device-height: 900px) and (-webkit-device-pixel-ratio: 2) {
+    .reasons-heading1 {
+        margin-bottom: 30px;
+        font-size: 20px !important;
+    }
+
+    .reasons-list1 li {
+        font-size: 10px !important;
+        font-weight: 500;
+        line-height: 1.0;
+        margin-bottom: 10px;
+    }
+}
 
 /* iPhone Pro Max (428x926) */
-@media (min-width: 390px) and (max-width: 575px) {
+@media screen and (max-width: 428px) {
     body {
         height: auto;
         padding: 20px 0;
