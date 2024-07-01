@@ -184,3 +184,112 @@ button:hover {
     box-shadow: 0 0 20px rgba(0, 0, 0, 0.5);
 }
 
+/* Responsive styles */
+
+/* MacBook Air 13-inch 2018 (1440x900) */
+@media screen and (max-width: 1440px) {
+    .container {
+        flex-direction: row;
+        align-items: center;
+        justify-content: center;
+    }
+
+    #i, #you {
+        font-size: 150px;
+    }
+
+    #heart {
+        width: 150px;
+    }
+
+    .peony {
+        width: 200px;
+    }
+
+    .reasons-heading {
+        font-size: 50px;
+    }
+
+    .reasons-list li {
+        font-size: 20px;
+    }
+
+    #photos-heading {
+        font-size: 50px;
+    }
+
+    .photo-container {
+        grid-template-columns: repeat(auto-fill, minmax(80px, 1fr));
+    }
+}
+
+/* iPhone Pro Max (428x926) */
+@media screen and (max-width: 428px) {
+    body {
+        height: auto;
+        padding: 20px 0;
+    }
+
+    .container {
+        flex-direction: column;
+        gap: 10px;
+    }
+
+    #i, #you {
+        font-size: 80px;
+    }
+
+    #heart {
+        width: 100px;
+    }
+
+    .peony {
+        width: 100px;
+    }
+
+    #controls {
+        top: 10px;
+    }
+
+    button {
+        padding: 5px 10px;
+        font-size: 24px;
+    }
+
+    .i_container {
+        margin-top: 2vh;
+    }
+
+    .reasons-heading {
+        font-size: 30px;
+        margin-bottom: 15px;
+    }
+
+    .reasons-wrapper {
+        flex-direction: column;
+    }
+
+    .reasons-list-left, .reasons-list-right {
+        width: 90%;
+        margin: 0 auto;
+    }
+
+    .reasons-list li {
+        font-size: 16px;
+        margin-bottom: 5px;
+    }
+
+    .photo-grid {
+        margin-top: 5vh;
+    }
+
+    #photos-heading {
+        font-size: 30px;
+        margin-bottom: 15px;
+    }
+
+    .photo-container {
+        grid-template-columns: repeat(auto-fill, minmax(60px, 1fr));
+        gap: 5px;
+    }
+}
