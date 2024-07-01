@@ -104,6 +104,11 @@ button:hover {
     font-size: 70px;
 }
 
+.reasons-heading1 {
+    margin-bottom: 30px;
+    font-size: 70px;
+}
+
 .reasons-wrapper {
     display: flex;
     justify-content: space-around; /* Adjust as needed */
@@ -123,8 +128,29 @@ button:hover {
     width: 45%; /* Adjust width for right column */
 }
 
+.reasons-list1 {
+    list-style-type: none;
+    padding: 0;
+    text-align: left; /* Align reasons to the left */
+}
+
+.reasons-list-left1 {
+    width: 45%; /* Adjust width for left column */
+}
+
+.reasons-list-right1 {
+    width: 45%; /* Adjust width for right column */
+}
+
 .reasons-list li {
     font-size: 24px;
+    font-weight: 500;
+    line-height: 1.0;
+    margin-bottom: 10px;
+}
+
+.reasons-list1 li {
+    font-size: 18px;
     font-weight: 500;
     line-height: 1.0;
     margin-bottom: 10px;
@@ -182,6 +208,16 @@ button:hover {
     border-radius: 20px;
     box-shadow: 0 0 20px rgba(0, 0, 0, 0.5);
 }
+/* Laptops and desktops (including MacBook Air 13-inch) */
+@media (min-width: 1200px) {
+
+    .reasons-heading1 {
+        margin-bottom: 30px;
+        font-size: 40px;
+    }
+
+}
+
 
 /* iPhone Pro Max (428x926) */
 @media screen and (max-width: 428px) {
