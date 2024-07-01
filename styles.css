@@ -215,7 +215,7 @@ button:hover {
 }
 
 /* MacBook Air 13-Inch 2018 */
-@media screen and (max-width: 1400px){
+@media screen and (max-width: 1550px){
     .reasons-heading1 {
         margin-bottom: 30px;
         font-size: 56px;
