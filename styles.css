@@ -216,7 +216,7 @@ button:hover {
 
 
 /* iPhone Pro Max (428x926) */
-@media screen and (max-width: 428px) {
+@media screen and (max-width: 430px) {
     body {
         height: auto;
         padding: 20px 0;
