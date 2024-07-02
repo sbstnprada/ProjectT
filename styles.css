@@ -214,6 +214,11 @@ button:hover {
     box-shadow: 0 0 20px rgba(0, 0, 0, 0.5);
 }
 
+#underline{
+    text-decoration-thickness: 3px;
+    text-underline-offset: 10px;
+}
+
 /* MacBook Air 13-Inch 2018 */
 @media screen and (max-width: 1550px){
     .reasons-heading1 {
