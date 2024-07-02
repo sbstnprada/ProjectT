@@ -227,6 +227,11 @@ button:hover {
         line-height: 1.0;
         margin-bottom: 10px;
     }
+
+    #photos-heading{
+        font-size: 60px;
+        margin-bottom: 30px;
+    }
 }
 /* iPhone Pro Max (428x926) */
 @media screen and (max-width: 430px) {
@@ -309,6 +314,7 @@ button:hover {
 
     #photos-heading {
         font-size: 30px;
+        margin-top: 30px;
         margin-bottom: 15px;
     }
 
